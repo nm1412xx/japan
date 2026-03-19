@@ -18,6 +18,21 @@ h1{
     justify-items: center;
 }
 
+/* Solo celulares */
+@media (max-width: 600px) {
+  img:active {
+    transform: scale(1.2);
+  }
+  
+  .galeria{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:10px;
+    justify-items: center;
+  }
+
+}
+
 @media (min-width:768px){
     .galeria{
         grid-template-columns: repeat(3,1fr);
